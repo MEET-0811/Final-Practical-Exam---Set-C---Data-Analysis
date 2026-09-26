@@ -1,7 +1,6 @@
-# Excel Task Guide - Set C (6 Marks)
+# Excel Task Guide - Set C 
 
-**File:** `excel/analysis.xlsx`  
-**Total Marks:** 6 (E1: 2 marks, E2: 2 marks, E3: 2 marks)
+**File:** `excel/analysis.xlsx` 
 
 ---
 
@@ -262,14 +261,6 @@ Lookup    → 4 rows (course metadata)
 Clean     → 12 rows + columns (A–H): assessment_id, month, course_id, batch, score, attendance_pct, department, pass_flag
 Summary   → Batch summary table + PivotTable + Column chart
 ```
-
-**Marks Breakdown:**
-- E1 (2 marks): Before/after row counts visible + XLOOKUP for department → 2 marks
-- E2 (2 marks): pass_flag IF formula + COUNTIFS batch summary → 2 marks
-- E3 (2 marks): PivotTable (avg score by dept & month) + formatted column chart → 2 marks
-
-**Total:** 6 marks ✓
-
 ---
 
 ## Submission Checklist
