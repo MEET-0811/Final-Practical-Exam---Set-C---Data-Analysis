@@ -6,21 +6,6 @@
 
 ---
 
-## ⏱ Suggested Timeline
-
-| Phase | Time | Focus | Modules |
-|-------|------|-------|---------|
-| **Phase 0: Setup** | 15 min | Copy CSVs, folder structure, verify raw files | All |
-| **Phase 1: Excel** | 30 min | Raw → Clean → Lookup → Summary sheets | E1, E2, E3 |
-| **Phase 2: SQL** | 30 min | setup.sql + queries.sql; 3 labeled results | S1, S2a–c, S3 |
-| **Phase 3: Python** | 30 min | Load, clean, merge, derive, plot, export | P1, P2, P3 |
-| **Phase 4: Power BI** | 35 min | Power Query clean → DAX → report + screenshot | B1, B2, B3 |
-| **Phase 5: Recording** | 15 min | 5–10 min face + screen walkthrough | V1–V4 |
-| **Phase 6: GitHub** | 25 min | Commit, README, links, final checklist | G1–G4 |
-| **TOTAL** | **180 min** | — | — |
-
----
-
 ## 📦 Deliverables Checklist
 
 ### ✅ Pre-Exam Setup (Before Timer Starts)
