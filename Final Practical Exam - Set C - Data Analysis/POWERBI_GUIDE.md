@@ -267,7 +267,8 @@ Build a Power BI dashboard with:
 ### Step 7: Take Final Screenshot
 
 1. **Unfilter all** (ensure dashboard shows all data, no filters applied)
-2. **Export → Export to Image** (or Print Screen → Paste in Paint)
+2. **Export → Export to Image** (<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/728f9d8a-369d-411d-a733-3ad501c70dc1" />
+)
 3. **Save as:** `outputs/powerbi_dashboard.png`
 4. **File should show:**
    - 3 KPI cards (12, 64.17, 66.67%)
