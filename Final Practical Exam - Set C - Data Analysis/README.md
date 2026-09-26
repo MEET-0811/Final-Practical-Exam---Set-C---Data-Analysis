@@ -1,9 +1,9 @@
 # Data Analysis Set C - Training Performance Analysis
 
-**Student ID:** [YOUR-STUDENT-ID]  
+**Student ID:** [Meet Dodiya-12062]  
 **Assigned Set:** Set C  
 **Exam Duration:** 180 minutes  
-**Submission Date:** [DATE]
+**Submission Date:** [26/09/2026]
 
 ---
 
@@ -240,10 +240,10 @@ sqlite3 exam.db < sql/queries.sql
 ## 📹 Video Explanation
 
 **Video Title:** Data Analysis Set C — Training Performance (Set C)  
-**Duration:** [5–10 minutes]  
+**Duration:** [3–4 minutes]  
 **Platform:** [YouTube (Unlisted) / Google Drive (Shareable Link)]
 
-**Video URL:** [INSERT WORKING URL HERE]  
+**Video URL:** [[INSERT WORKING URL HERE](https://drive.google.com/file/d/122yikb76eubtCvkJETRh-n1sVhiuZucI/view?usp=sharing)]  
 **Testing:** [Tested in private/incognito browser — ✓ Accessible]
 
 ### Video Outline
@@ -274,9 +274,9 @@ sqlite3 exam.db < sql/queries.sql
 
 **I declare that all work in this repository is my own except where cited above.**
 
-Signed: [Your Name]  
-Date: [Submission Date]  
-Student ID: [YOUR-STUDENT-ID]
+Signed: [Meet Dodiya]  
+Date: [26/09/2026]  
+Student ID: [Meet Dodiya-12062]
 
 ---
 
