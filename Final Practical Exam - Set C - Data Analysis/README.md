@@ -1,9 +1,8 @@
 # Data Analysis Set C - Training Performance Analysis
 
-**Student ID:** [YOUR-STUDENT-ID]  
+**Student ID:** [12062]  
 **Assigned Set:** Set C  
-**Exam Duration:** 180 minutes  
-**Submission Date:** [DATE]
+**Submission Date:** [26/09/2004]
 
 ---
 
