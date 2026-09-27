@@ -2,8 +2,6 @@
 
 **File:** `powerbi/dashboard.pbix`  
 **Platform:** Power BI Desktop (Windows only)  
-**Total Marks:** 7 (B1: 2 marks, B2: 3 marks, B3: 2 marks)
-
 ---
 
 ## 📋 Overview
@@ -16,7 +14,7 @@ Build a Power BI dashboard with:
 
 ---
 
-## Task B1: Power Query & Data Model (2 Marks)
+## Task B1: Power Query & Data Model 
 
 ### Step 1: Load Data Sources in Power Query
 
@@ -67,7 +65,7 @@ Build a Power BI dashboard with:
 
 ---
 
-## Task B2: DAX Measures (3 Marks)
+## Task B2: DAX Measures 
 
 ### Step 1: Create Measures Table
 
@@ -139,7 +137,7 @@ Build a Power BI dashboard with:
 
 ---
 
-## Task B3: Report Page & Dashboard (2 Marks)
+## Task B3: Report Page & Dashboard 
 
 ### Step 1: Design Report Layout
 
@@ -313,21 +311,18 @@ Build a Power BI dashboard with:
 
 ## Marks Breakdown
 
-**B1 — Power Query & Data Model (2 marks)**
-- Data types set correctly: 1 mark
-- Duplicate row removed (12 rows remain): 1 mark
+**B1 — Power Query & Data Model **
+- Data types set correctly
+- Duplicate row removed (12 rows remain)
 
-**B2 — DAX Measures (3 marks)**
-- Assessment Count measure: 1 mark
-- Avg Score measure: 1 mark
-- Pass Rate measure (DIVIDE with filter): 1 mark
+**B2 — DAX Measures**
+- Assessment Count measure
+- Avg Score measure
+- Pass Rate measure (DIVIDE with filter)
 
-**B3 — Report Page & Screenshot (2 marks)**
-- 3 KPI cards + 2 charts + batch slicer + readable layout: 1 mark
-- Batch slicer demonstrated + findings documented in README: 1 mark
-
-**Total: 7 marks**
-
+**B3 — Report Page & Screenshot**
+- 3 KPI cards + 2 charts + batch slicer + readable layout
+- Batch slicer demonstrated + findings documented in README
 ---
 
 ## Submission Checklist
