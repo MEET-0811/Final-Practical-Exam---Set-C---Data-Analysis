@@ -199,22 +199,8 @@ dept_summary = merged.groupby('department').agg(
 
 ---
 
-## ⏱ Time Checkpoints
 
-| Time | Milestone | Action |
-|------|-----------|--------|
-| 0:00 | START | Data setup, verify raw files |
-| 0:15 | ✓ Phase 1 | Excel analysis complete |
-| 0:45 | ✓ Phase 2 | SQL setup + queries complete |
-| 1:15 | ✓ Phase 3 | Python analysis complete + outputs |
-| 1:50 | ✓ Phase 4 | Power BI report + screenshot |
-| 2:05 | ✓ Phase 5 | Video recorded & uploaded |
-| 2:30 | ✓ Phase 6 | GitHub repo submitted |
-| 3:00 | FINISH | Final checks |
-
----
-
-## ✅ Pre-Submission Checklist (5 min before deadline)
+## ✅ Pre-Submission Checklist 
 
 **Excel:**
 - [ ] 4 sheets: Raw (13 rows), Lookup (4 rows), Clean (12 rows + formulas), Summary (PivotTable + chart)
@@ -265,12 +251,6 @@ dept_summary = merged.groupby('department').agg(
 - [ ] Meaningful commit messages
 - [ ] Final commit hash recorded
 
-**Video:**
-- [ ] Face visible throughout (webcam + screen)
-- [ ] Audio clear, screen readable
-- [ ] 5–10 minutes duration
-- [ ] URL accessible in incognito browser
-- [ ] No sign-in required
 
 ---
 
@@ -294,17 +274,6 @@ Dataset covers only 3 months (Jan–Mar) and 4 courses with small sample sizes (
 
 ---
 
-## 🔗 Video Outline (5–10 min)
-
-1. **Intro (30s)** — Name, ID, Set C, business question
-2. **Dataset (60s)** — Structure, duplicate, 12 unique records
-3. **Excel (90s)** — XLOOKUP, IF, PivotTable
-4. **SQL (60s)** — S2a query, JOIN logic, results
-5. **Python (90s)** — Merge, pass_flag, chart
-6. **Power BI (90s)** — DAX, slicer demo, KPI values
-7. **Conclusion (60s)** — Findings, recommendation, limitation, repo structure
-
----
 
 ## 📞 Quick Troubleshooting
 
@@ -320,10 +289,3 @@ Dataset covers only 3 months (Jan–Mar) and 4 courses with small sample sizes (
 
 ---
 
-**Good luck! 🎓**
-
-*Save this page as reference during exam.*
-
----
-
-*"Quality is our Motto" — Red & White Skill Education*
