@@ -17,7 +17,7 @@ Create a workbook with **four sheets**: Raw, Lookup, Clean, and Summary.
 
 ---
 
-## Task E1: Data Import & Cleaning (2 Marks)
+## Task E1: Data Import & Cleaning 
 
 ### Step 1: Create "Raw" Sheet
 
@@ -96,7 +96,7 @@ Create a workbook with **four sheets**: Raw, Lookup, Clean, and Summary.
 
 ---
 
-## Task E2: Derived Field & Batch Summary (2 Marks)
+## Task E2: Derived Field & Batch Summary 
 
 ### Step 1: Add pass_flag Column
 
