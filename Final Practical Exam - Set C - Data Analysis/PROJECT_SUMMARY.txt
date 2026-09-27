@@ -1,14 +1,5 @@
 ================================================================================
-  DATA ANALYSIS SET C - PRACTICAL EXAM PROJECT FRAMEWORK
-  Red & White Skill Education
-================================================================================
-
-EXAM DETAILS:
-  Type: Practical Data Analysis
-  Set: C
-  Duration: 180 minutes
-  Total Marks: 50 (25 technical + 15 video + 10 GitHub)
-
+  DATA ANALYSIS 
 ================================================================================
 ✅ DELIVERABLES CREATED
 ================================================================================
@@ -45,23 +36,23 @@ EXAM DETAILS:
   └── PROJECT_SUMMARY.txt                (✓ This file)
 
 ================================================================================
-✅ SECTION A: TECHNICAL WORK (25 Marks)
+✅ SECTION A: TECHNICAL WORK 
 ================================================================================
 
-TASK 1: EXCEL (6 Marks) — 📝 TO CREATE
+TASK 1: EXCEL — 📝 TO CREATE
   File: excel/analysis.xlsx
   
-  E1 — Data Import & Cleaning (2 marks)
+  E1 — Data Import & Cleaning 
     ✓ Raw sheet: 13 rows (original data)
     ✓ Lookup sheet: 4 rows (courses)
     ✓ Clean sheet: 12 rows (duplicate removed)
     ✓ Department column: XLOOKUP formula
   
-  E2 — Derived Fields (2 marks)
+  E2 — Derived Fields
     ✓ pass_flag column: IF(score>=50, 1, 0)
     ✓ Batch summary: COUNTIFS(Morning/Evening/Weekend)
   
-  E3 — PivotTable & Chart (2 marks)
+  E3 — PivotTable & Chart 
     ✓ PivotTable: Avg score by department × month (Jan→Feb→Mar)
     ✓ Column chart: Formatted with title, labels, legend
 
@@ -69,20 +60,20 @@ TASK 1: EXCEL (6 Marks) — 📝 TO CREATE
 
 ---
 
-TASK 2: SQL (6 Marks) — ✅ READY
+TASK 2: SQL — ✅ READY
   File: sql/setup.sql + sql/queries.sql
   
-  S1 — Table Definitions & Data Load (2 marks)
+  S1 — Table Definitions & Data Load 
     ✓ CREATE TABLE: courses + assessments
     ✓ Foreign key: assessments.course_id → courses.course_id
     ✓ INSERT: 4 courses + 12 assessments (no duplicate)
   
-  S2 — Three Analytical Queries (3 marks)
+  S2 — Three Analytical Queries
     ✓ S2a: Avg score by department (ascending)
     ✓ S2b: Underperforming courses (avg < 60)
     ✓ S2c: Top two batches by avg score
   
-  S3 — Data Integrity (1 mark)
+  S3 — Data Integrity 
     ✓ LEFT JOIN diagnostic: Verify zero unmatched keys
 
   Status: Scripts ready to execute
@@ -90,20 +81,20 @@ TASK 2: SQL (6 Marks) — ✅ READY
 
 ---
 
-TASK 3: PYTHON (6 Marks) — ✅ EXECUTED
+TASK 3: PYTHON  — ✅ EXECUTED
   File: python/analysis.py
   
-  P1 — Load, Clean & Merge (2 marks)
+  P1 — Load, Clean & Merge 
     ✓ Load CSVs with relative paths
     ✓ Remove duplicate: 13 → 12 rows
     ✓ Merge: assessments ← courses (zero unmatched)
   
-  P2 — Derived Fields & Analysis (2 marks)
+  P2 — Derived Fields & Analysis 
     ✓ pass_flag: (score >= 50).astype(int)
     ✓ Department summary: 6 rows each, pass rates 83.33% vs 50.00%
     ✓ Course summary: Python identified as needing most support (33.33%)
   
-  P3 — Charts & Exports (2 marks)
+  P3 — Charts & Exports 
     ✓ Monthly trend chart (Jan→Feb→Mar): Saved as PNG
     ✓ clean_data.csv: 12 rows with pass_flag
     ✓ python_summary.csv: Department summary with pass rates
@@ -112,21 +103,21 @@ TASK 3: PYTHON (6 Marks) — ✅ EXECUTED
 
 ---
 
-TASK 4: POWER BI (7 Marks) — 📝 TO CREATE
+TASK 4: POWER BI — 📝 TO CREATE
   File: powerbi/dashboard.pbix
   
-  B1 — Power Query & Data Model (2 marks)
+  B1 — Power Query & Data Model
     ✓ Load assessments.csv + courses.csv
     ✓ Data types: Integer, Decimal, Text
     ✓ Remove duplicate: 13 → 12 rows
     ✓ One-to-many relationship: courses → assessments (single filter)
   
-  B2 — DAX Measures (3 marks)
+  B2 — DAX Measures
     ✓ Assessment Count = COUNTROWS(assessments) → 12
     ✓ Avg Score = AVERAGE(assessments[score]) → 64.17
     ✓ Pass Rate = DIVIDE(COUNTROWS(FILTER()), COUNTROWS(), 0) → 66.67%
   
-  B3 — Report Page & Screenshot (2 marks)
+  B3 — Report Page & Screenshot 
     ✓ 3 KPI cards (Assessment Count, Avg Score, Pass Rate)
     ✓ Bar chart (Avg Score by Department)
     ✓ Monthly trend chart (Jan→Feb→Mar order)
@@ -135,61 +126,53 @@ TASK 4: POWER BI (7 Marks) — 📝 TO CREATE
 
   Status: Ready to Execute (See POWERBI_GUIDE.md)
 
-  SECTION A TOTAL: 25 Marks ✅ READY
+  SECTION A TOTAL: ✅ READY
 
 ================================================================================
-✅ SECTION B: VIDEO EXPLANATION (15 Marks)
+✅ SECTION B: VIDEO EXPLANATION
 ================================================================================
 
-Format: 5–10 minute recording with face + screen visible
-Platform: YouTube (Unlisted) or Google Drive (Public link)
-
-Outline (5–10 min):
-  V1 — Problem, Dataset & Cleaning (3 marks)
+Outline :
+  V1 — Problem, Dataset & Cleaning
     ✓ Business question stated
     ✓ Data structure explained
     ✓ Duplicate removal demonstrated
   
-  V2 — Technical Explanation (6 marks)
+  V2 — Technical Explanation 
     ✓ Excel: XLOOKUP formula, pass_flag IF, PivotTable shown
     ✓ SQL: S2a query explained, JOIN logic, results displayed
     ✓ Python: Merge validation, pass_flag calc, chart output
     ✓ Power BI: DAX measure, batch slicer demo, KPI values read
   
-  V3 — Interpretation & Recommendation (3 marks)
+  V3 — Interpretation & Recommendation 
     ✓ Finding 1: Python course 33.33% pass rate (needs support)
     ✓ Finding 2: Business dept 83.33% vs Technology 50.00%
     ✓ Recommendation: Targeted tutoring for Python
     ✓ Limitation: Only 3 months data, small sample size
   
-  V4 — Presentation & Compliance (3 marks)
+  V4 — Presentation & Compliance 
     ✓ Face + screen visible throughout
     ✓ Clear audio, readable screen
-    ✓ Duration 5–10 minutes
-
-Status: Ready to Record (See EXECUTION_GUIDE.md > Phase 5)
-
-SECTION B TOTAL: 15 Marks 📝 TO RECORD & UPLOAD
 
 ================================================================================
-✅ SECTION C: GITHUB SUBMISSION (10 Marks)
+✅ SECTION C: GITHUB SUBMISSION 
 ================================================================================
 
 Repository: data-analysis-set-c-YOUR-STUDENT-ID (PUBLIC)
 
-G1 — Public Repo & Complete Deliverables (2 marks)
+G1 — Public Repo & Complete Deliverables 
   ✓ All 4 editable files: .xlsx, .sql (×2), .py, .pbix
   ✓ All output files: CSV, PNG, TXT
   ✓ Raw data: 13 + 4 rows
   ✓ Repository publicly accessible (no sign-in required)
 
-G2 — Clear Project Organisation (2 marks)
+G2 — Clear Project Organisation
   ✓ Logical folders: data/raw/, excel/, sql/, python/, powerbi/, outputs/
   ✓ Sensible filenames: analysis.xyz, setup.sql, queries.sql, etc.
   ✓ requirements.txt: pandas, matplotlib
   ✓ .gitignore: venv/, __pycache__/, *.db, etc.
 
-G3 — Proper README.md (4 marks)
+G3 — Proper README.md
   ✓ Student ID + Set C header
   ✓ Business objective + questions
   ✓ Complete data dictionary (column names, types, definitions)
@@ -201,7 +184,7 @@ G3 — Proper README.md (4 marks)
   ✓ Video URL (tested) + duration
   ✓ Authorship declaration
 
-G4 — Reproducible Handoff (2 marks)
+G4 — Reproducible Handoff
   ✓ Relative paths: data/raw/, not /home/user/...
   ✓ Python runs: python python/analysis.py
   ✓ SQL runs: sqlite3 < sql/setup.sql && sqlite3 < sql/queries.sql
@@ -256,22 +239,6 @@ Power BI      Pass Rate DAX measure                     66.67% ✓
 Status: ✅ ALL RECONCILED (No rounding discrepancies)
 
 ================================================================================
-⏱ RECOMMENDED TIMELINE (180 minutes)
-================================================================================
-
-Phase  | Time | Activity                              | Modules
-────────────────────────────────────────────────────────────────
-0      | 15m  | Data setup, verify files             | All
-1      | 30m  | Excel (E1+E2+E3)                    | Excel
-2      | 30m  | SQL (S1+S2+S3)                      | SQL
-3      | 30m  | Python (P1+P2+P3) — ALREADY DONE   | Python ✓
-4      | 35m  | Power BI (B1+B2+B3)                | Power BI
-5      | 15m  | Video recording (V1–V4)             | Video
-6      | 25m  | GitHub setup, README, submission   | GitHub
-────────────────────────────────────────────────────────────────
-TOTAL | 180m | Complete exam submission             |
-
-Current Status: Python phase complete ✓ (30 min saved!)
 
 ================================================================================
 📋 FINAL CHECKLIST (Before Submission)
@@ -323,13 +290,6 @@ Current Status: Python phase complete ✓ (30 min saved!)
   ☐ Meaningful commit messages
   ☐ Final commit hash recorded
 
-☐ VIDEO:
-  ☐ 5–10 minutes
-  ☐ Face + screen visible
-  ☐ Audio clear, screen readable
-  ☐ URL tested in private browser
-  ☐ No sign-in required
-
 ================================================================================
 📚 GUIDES PROVIDED
 ================================================================================
@@ -356,15 +316,6 @@ Use these guides during exam execution!
 ✅ Supporting Guides:     EXECUTION_GUIDE, QUICK_REFERENCE provided
 ✅ Project Structure:     Folder hierarchy established
 
-📝 TO DO (Exam Time):
-  □ Execute Excel analysis (30 min)
-  □ Execute SQL queries (30 min) [setup already prepared]
-  □ Execute Power BI dashboard (35 min)
-  □ Record video (15 min)
-  □ Push to GitHub + submit (25 min)
-
-Estimated Total: 135 min (45 min buffer available)
-
 ================================================================================
 🚀 QUICK START
 ================================================================================
@@ -378,8 +329,3 @@ Estimated Total: 135 min (45 min buffer available)
 
 ================================================================================
 
-Good luck! 🎓
-
-"Quality is our Motto" — Red & White Skill Education
-
-================================================================================
